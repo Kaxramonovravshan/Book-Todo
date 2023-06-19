@@ -73,9 +73,9 @@ body {
   justify-content: space-between;
 }
 
-.todo-box {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+
+@media (max-width:500px){
+  body{
+    padding: 100px 5px;
+  }
 }
